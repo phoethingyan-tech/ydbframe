@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'header';
+    src: url('font/myanmaryinmar.ttf');
+}
+
+@font-face {
+    font-family: 'body';
+    src: url('font/myanmaryein.ttf');
+}
+
+.nav-cover {
+    background-color: #f0e8e8;
+}
+
+.nav-header {
+    font-family: 'header';
+    color: #fd0033;
+    font-size: 55px;
+}
