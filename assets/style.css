@@ -17,3 +17,9 @@
     color: #fd0033;
     font-size: 55px;
 }
+
+@media (max-width: 575.98px) {
+  .mobile-lineheight {
+    line-height: 1.5; /* or try 2 for more spacing */
+  }
+}
