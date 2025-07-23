@@ -4,17 +4,33 @@
 }
 
 @font-face {
-    font-family: 'body';
+    font-family: 'title';
     src: url('font/myanmaryein.ttf');
 }
 
+@font-face {
+    font-family: 'body';
+    src: url('font/MyanmarTextMelano.ttf');
+}
+
+.title-font {
+  font-family:'title';
+}
+
+.body-font {
+  font-family:'body';
+}
+
+.line-height {
+  line-height: 1.8;
+}
 .nav-cover {
     background-color: #f0e8e8;
 }
 
 .nav-header {
     font-family: 'header';
-    color: #fd0033;
+    color: #fd0000;
     font-size: 55px;
 }
 
