@@ -24,8 +24,13 @@
 .line-height {
   line-height: 1.8;
 }
+
+body {
+  line-height: 1.7;
+}
+
 .nav-cover {
-    background-color: #f0e8e8;
+    background-color: #f9f6f6;
 }
 
 .nav-header {
@@ -38,4 +43,13 @@
   .mobile-lineheight {
     line-height: 1.5; /* or try 2 for more spacing */
   }
+}
+
+.hover-beside {
+  transition: transform 0.5s ease;
+}
+
+.hover-beside:hover {
+  transform: translateX(5px);
+  transition: transform 0.5s ease;
 }
